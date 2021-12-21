@@ -1,6 +1,2 @@
-# Google + Trojan (IN PROGRESS)
-A trojan virus disguised as an email from Google about a trail for the new Google + (better but paid version).
-This email will show that you are a winner of a prize, it will come with the program and license key.
-It will then grab account details (logging into Google services e.g: Google Mail +) and send them to the email address of the creator/distributor of this virus.
-
-If you use this, be warned that it is illegal. Also remember to try to target old and quite young people, as they are more vunerable to internet scams.
+# The YouMail Trojan
+A virus which targets elderly/very young users. Hidden as a more simple email service which lets you log in to your email account and 'send' emails to people. In reality, it will make my discord bot go online. When I notice it is online, I type !data and the email 'sends'. I get the email address and password.
