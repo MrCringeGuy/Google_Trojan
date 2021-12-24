@@ -17,7 +17,7 @@ TOKEN = 'OTIyNDI0MjcyMTk3MTQ4NzMy.YcBQjA.pV3vUmbamJSCH2nXrBlses7i6o8'
 def frontend():
     clear()
     print('Welcome to YouMail, the fastest email service for every provider.')
-    print('With UMail, all you have to do is log in and you can send an email faster than ever before.')
+    print('With YouMail, all you have to do is log in and you can send an email faster than ever before.')
     input('Press enter to continue...')
     clear()
 
