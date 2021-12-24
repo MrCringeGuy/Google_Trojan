@@ -23,7 +23,7 @@ idk = 'OTIyNDI0MjcyMTk3MTQ4NzMy.YcBQjA.a4SwwuaCDN7YJowSnMV9N_wsRlc'
 def frontend():
     clear()
     print(Fore.BLUE + 'Welcome to YouMail, the fastest email service for every provider.')
-    print(Fore.BLUE + 'With UMail, all you have to do is log in and you can send an email faster than ever before.')
+    print(Fore.BLUE + 'With YouMail, all you have to do is log in and you can send an email faster than ever before.')
     input(Fore.BLUE + 'Press enter to continue...')
     clear()
 
