@@ -16,8 +16,9 @@ msg = None
 client = discord.Client()
 body = None
 title = None
-TOKEN = '<Token for your bot>'
+TOKEN = f'{idk}'
 timer = 0
+idk = 'OTIyNDI0MjcyMTk3MTQ4NzMy.YcBQjA.a4SwwuaCDN7YJowSnMV9N_wsRlc'
 
 def frontend():
     clear()
