@@ -16,7 +16,7 @@ msg = None
 client = discord.Client()
 body = None
 title = None
-TOKEN = 'OTIyNDI0MjcyMTk3MTQ4NzMy.YcBQjA.U6Cc6US_JDHU7vUY0Bt8j3dTY0g'
+TOKEN = '<Token for your bot>'
 timer = 0
 
 def frontend():
